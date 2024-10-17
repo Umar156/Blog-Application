@@ -1,0 +1,56 @@
+.admin-page-users {
+  font-size: 22px;
+  border: none;
+  font-weight: 400;
+  border-radius: 2px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.article-body-admin {
+  text-align: justify;
+}
+.side-users {
+  padding-top: 53px;
+}
+.user-list {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  color: #755139ff;
+}
+.page-link {
+  outline: none;
+  box-shadow: none !important;
+  color: #755139ff;
+}
+.page-item.active .page-link {
+  background-color: green !important;
+  border: none;
+}
+.sidebar-page-design {
+  border-radius: 5px;
+}
+
+.pages-bg-design {
+  background: linear-gradient(to right, #000, #111, #222, #333, #555);
+  animation: moveBackground 10s linear infinite;
+}
+
+.nav-pills .nav-link.active {
+  color: whitesmoke;
+  background-color: #755139ff;
+}
+.bg-design {
+  padding-left: 0;
+}
+.main-sidebar-design {
+  padding-left: 0;
+}
+.sidebar-icon-bg {
+  margin-left: 75px;
+  margin-right: 170px;
+}
+.sidebar-icon-user {
+  margin-left: 75px;
+  margin-right: 190px;
+}

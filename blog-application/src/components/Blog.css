@@ -1,0 +1,31 @@
+.blog-head-design {
+  color: #2e0880;
+}
+.blog-page-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+.blog-input {
+  background-color: #ebeaeb;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.blog-input:focus {
+  border: 1px solid black;
+}
+.btn-blog-create {
+  background-color: #2e0880;
+  color: whitesmoke;
+  font-weight: 500;
+  border-radius: 50px;
+  margin-top: 15px;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-blog-create:focus {
+  background-color: #2e0880;
+  color: whitesmoke;
+}

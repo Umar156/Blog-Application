@@ -1,0 +1,229 @@
+body {
+  background-color: #f0f2f5;
+}
+.nav {
+  padding: 10px;
+}
+
+.home-logo {
+  font-family: Nova Square;
+}
+
+.logo-link {
+  color: #e0a96d;
+  font-weight: 600;
+  text-decoration: none;
+  padding-left: 10px;
+  position: absolute;
+  top: 20px;
+}
+.logo-link:hover {
+  color: #ddc3a5;
+}
+.auth-link {
+  text-decoration: none;
+  color: #36454f;
+}
+.auth-link:hover {
+  color: #483c32;
+  transition: transform 0.3s ease-in-out;
+}
+.auth-link li {
+  list-style-type: none;
+}
+.list-bg-design {
+  background-color: none !important;
+}
+.logo-pic-design {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.profile-pic-design {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+  border: 1px solid green;
+}
+
+.dropdown-list-user:before {
+  content: "";
+  position: absolute;
+  right: 11px;
+  top: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent white transparent;
+}
+.dropdown-list-user::after {
+  content: "";
+  position: absolute;
+  right: 4px;
+  top: -22px;
+  border-style: solid;
+  border-width: 0 17px 17px 17px;
+  border-color: transparent transparent white transparent;
+}
+
+.dropdown-list-user {
+  position: absolute;
+  right: 0vh;
+  border: 6px solid white;
+  background-color: white;
+  padding-left: 0;
+  border-radius: 5px;
+  padding: 5px;
+  top: 4.3em;
+}
+
+.profile-set {
+  padding-top: 7px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.dropdown-i-design {
+  padding-right: 7px;
+}
+.home-card-design {
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.new-blog-link {
+  text-decoration: none;
+  color: #36454f;
+  font-size: 20px;
+  font-weight: 500;
+}
+.new-blog-link:hover {
+  color: whitesmoke;
+  background-color: #483c32;
+  padding: 5px;
+  border-radius: 5px;
+}
+.article-user-design {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid green;
+  margin-left: 14px;
+  margin-top: 6px;
+}
+.article-container {
+  display: flex;
+  align-items: center;
+}
+.blog-user-name {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #050505;
+  padding-top: 4px;
+  padding-left: 5px;
+}
+.blog-date-create {
+  margin-bottom: 0;
+  color: #65676b;
+  font-size: 13px;
+  padding-left: 5px;
+}
+.like-button {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: #65676b;
+  font-weight: 500;
+}
+
+.line-comment {
+  border: 1px solid #ced0d4;
+  margin: 0 auto;
+  width: 93%;
+}
+.set-response {
+  padding: 10px 0px;
+}
+.set-response:hover {
+  background-color: #f0f2f5;
+}
+.comment-design {
+  width: 96%;
+  margin: 0 auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.comment-input {
+  background-color: #ebeaeb;
+  box-shadow: none !important;
+  outline: none !important;
+  border-radius: 25px;
+  font-size: 15px;
+}
+.comment-input:focus {
+  border: 1px solid #ebeaeb;
+}
+.arrow-design {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #ebeaeb !important;
+}
+.arrow-design:focus {
+  border: 1px solid black;
+}
+.comment-sec-design {
+  margin: 0 auto;
+  max-width: 95%;
+  display: flex;
+}
+.user-name-comment {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+  color: #050505;
+  font-weight: bolder;
+}
+.comment-body-design {
+  font-size: 16px;
+  color: #050505;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+}
+
+.complete-comment-body {
+  background-color: #f0f2f5;
+  margin-top: 10px;
+  padding: 6px 12px;
+}
+
+.editable-icon {
+  color: transparent;
+  height: 0;
+  width: 0;
+}
+.editable-icon:hover {
+  color: #36454f;
+}
+.editable-button {
+  border: none;
+  height: 66px;
+  margin-top: 10px;
+  background-color: #f0f2f5;
+}
+
+.editable-input {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.editable-input:focus {
+  border: 1px solid #ebeaeb;
+}
+@media only screen and (max-width: 768px) {
+  .logo-link {
+    display: none;
+  }
+}
