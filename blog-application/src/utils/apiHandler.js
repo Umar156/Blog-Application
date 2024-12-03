@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3000/api/v1";
+axios.defaults.baseURL = "https://blog-application-uvgy.vercel.app";
 
 const customAxios = (endpoint, method, data = null, header = null) => {
   return new Promise((resolve, reject) => {
